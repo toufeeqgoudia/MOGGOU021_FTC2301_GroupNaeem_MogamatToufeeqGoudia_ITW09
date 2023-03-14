@@ -15,7 +15,7 @@ body {
 .header_nav {
     width: 100%;
     height: 100vh;
-    background: cornflowerblue;
+    background: #455a64;
     position: relative;
     text-align: center;
     display: flex;
@@ -38,8 +38,8 @@ body {
     position: fixed;
     top: 40%;
     right: 2%;
-    border: 5px solid cornflowerblue;
-    background: cornflowerblue;
+    border: 5px solid #455a64;
+    background: #455a64;
     border-radius: 30px;
 }
 .footer_nav ul {
@@ -65,7 +65,7 @@ main {
 }
 h3 {
     font-size: 50px;
-    color: cornflowerblue;
+    color: #546e7a;
     text-align: center;
 }
 .contact_container {
@@ -90,7 +90,7 @@ ul li {
 form {
     width: 300px;
     height: 350px;
-    border: 3px solid cornflowerblue;
+    border: 3px solid #546e7a;
     border-radius: 20px;
 }
 form h5 {
@@ -115,12 +115,12 @@ form textarea {
     width: 80px;
     border-radius: 10px;
     color: black;
-    background: cornflowerblue;
+    background: #546e7a;
 }
 .button:hover {
     cursor: pointer;
-    background: rgb(rgb(60, 106, 233));
+    background: #455a64;
 }
 .fa-github, .fa-linkedin, .fa-envelope, .fa-location-dot, .fa-phone {
-    color: cornflowerblue;
+    color: #546e7a;
 }
