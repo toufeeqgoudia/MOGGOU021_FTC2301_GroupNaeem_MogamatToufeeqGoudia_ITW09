@@ -10,22 +10,25 @@ body {
     height: 100%;
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 15% 85%;
 }
 .header_nav {
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
     background: cornflowerblue;
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .header_nav p {
-    padding: 40px;
+    margin: 0 auto;
 }
 .header_nav p a {
     color: black;
-    font-size: 35px;
-    text-decoration: none;
+    font-size: 100%;
+    text-decoration: overline;
     text-transform: uppercase;
 }
 .header_nav p a:hover {
@@ -54,4 +57,70 @@ body {
 }
 .footer_nav ul li a:hover {
     color: white;
+}
+
+/* Contact CSS */
+main {
+    background: whitesmoke;
+}
+h3 {
+    font-size: 50px;
+    color: cornflowerblue;
+    text-align: center;
+}
+.contact_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 140px;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p_link {
+    color: black;
+}
+form {
+    width: 300px;
+    height: 350px;
+    border: 3px solid cornflowerblue;
+    border-radius: 20px;
+}
+form h5 {
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+}
+form input {
+    width: 80%;
+    margin: 5px;
+}
+form select {
+    width: 65%;
+    margin: 5px;
+}
+form textarea {
+    width: 96%;
+    height: 50%;
+    margin: 5px;
+}
+.button {
+    width: 80px;
+    border-radius: 10px;
+    color: black;
+    background: cornflowerblue;
+}
+.button:hover {
+    cursor: pointer;
+    background: rgb(rgb(60, 106, 233));
+}
+.fa-github, .fa-linkedin, .fa-envelope, .fa-location-dot, .fa-phone {
+    color: cornflowerblue;
 }

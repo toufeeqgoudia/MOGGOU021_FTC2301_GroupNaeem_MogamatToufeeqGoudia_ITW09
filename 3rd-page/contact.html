@@ -10,21 +10,43 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="header_nav">
             <p> <a href="../about.html"> About Me </a> </p>
             <p> <a href="../2nd-page/profile.html"> Profile </a> </p>
-            <p> <a href="#"> Contact </a> </p>
+            <p> <a href="contact.html"> Contact </a> </p>
         </nav>
     </header>
     <main>
-
+        <h3> Contact </h3>
+        <section class="contact_container">
+            <ul>
+                <li> <i class="fa-brands fa-github"></i> <a href="https://github.com/toufeeqgoudia/" target="_blank" class="p_link"> GitHub </a> </li>
+                <li> <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/toufeeq-goudia-502b15231/" target="_blank" class="p_link"> LinkedIn </a> </li>
+                <li> <i class="fa-solid fa-envelope"></i> toufeeqgoudia@gmail.com </li>
+                <li> <i class="fa-solid fa-location-dot"></i> Cape Town, South Africa </li>
+                <li> <i class="fa-solid fa-phone"></i> +27 81 071 0259 </li>
+            </ul>
+            <form action="https://formsubmit.co/toufeeqgoudia@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/3rd-page/thanks.html">
+                <h5> Contact me </h5>
+                <input type="email" name="user_email" placeholder="your email here please..." required>
+                <select required>
+                    <option value="">--please choose--</option>
+                    <option value="interview">Interview Opportunity</option>
+                    <option value="recruiter">Recruiter</option>
+                    <option value="website_feedback">Website Feedback</option>
+                </select>
+                <textarea type="text" placeholder="message here please (optional)..."></textarea>
+                <input type="submit" value="Submit" class="button">
+            </form>
+        </section>
     </main>
     <footer>
-        <nav>
+        <nav class="footer_nav">
             <ul>
                 <li> <a href="../about.html"> <i class="fa-solid fa-user"></i> </a> </li>
                 <li> <a href="../2nd-page/profile.html"> <i class="fa-solid fa-file-powerpoint"></i> </a> </li>
-                <li> <a href="#"> <i class="fa-regular fa-address-book"></i> </a> </li>
+                <li> <a href="contact.html"> <i class="fa-regular fa-address-book"></i> </a> </li>
             </ul>
         </nav>
     </footer>

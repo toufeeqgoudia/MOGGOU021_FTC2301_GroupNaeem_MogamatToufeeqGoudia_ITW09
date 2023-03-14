@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+div {
+    border: 2px solid cornflowerblue;
+    width: 50%;
+    margin: 30px auto;
+}
+div p {
+    font-size: 25px;
+}
+.btn {
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    width: 150px;
+    background: cornflowerblue;
+    margin: 0 auto;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
