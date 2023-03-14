@@ -1,0 +1,57 @@
+/* Common CSS */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', Helvetica, Arial, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.header_nav {
+    max-width: 100%;
+    height: 100vh;
+    background: cornflowerblue;
+    position: relative;
+    text-align: center;
+}
+.header_nav p {
+    padding: 40px;
+}
+.header_nav p a {
+    color: black;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header_nav p a:hover {
+    color: white;
+}
+.footer_nav {
+    position: fixed;
+    top: 40%;
+    right: 2%;
+    border: 5px solid cornflowerblue;
+    background: cornflowerblue;
+    border-radius: 30px;
+}
+.footer_nav ul {
+    padding: 2px;
+}
+.footer_nav ul li {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style: none;
+    text-align: center;
+}
+.footer_nav ul li a {
+    color: black;
+}
+.footer_nav ul li a:hover {
+    color: white;
+}
