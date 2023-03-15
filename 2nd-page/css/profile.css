@@ -153,6 +153,9 @@ h5 {
         width: 15px;
         height: 15px;
     }
+    .footer_nav ul li {
+        font-size: 19px;
+    }
 }
 
 /* Mobile */
@@ -171,5 +174,8 @@ h5 {
     }
     h4 {
         padding-top: 15px;
+    }
+    .footer_nav ul li {
+        font-size: 13px;
     }
 }

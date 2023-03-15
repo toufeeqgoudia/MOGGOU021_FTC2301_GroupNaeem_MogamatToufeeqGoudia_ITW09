@@ -93,6 +93,7 @@ p {
     margin-right: 40px;
 }
 
+
 /* Tablet */
 @media screen and (max-width: 850px) {
     img {
@@ -111,6 +112,9 @@ p {
     }
     p {
         font-size: 14px;
+    }
+    .footer_nav ul li {
+        font-size: 19px;
     }
 }
 
@@ -134,6 +138,9 @@ p {
         padding-right: 40px;
     }
     p {
+        font-size: 13px;
+    }
+    .footer_nav ul li {
         font-size: 13px;
     }
 }

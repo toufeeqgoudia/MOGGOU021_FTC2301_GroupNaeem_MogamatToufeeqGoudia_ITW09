@@ -149,6 +149,9 @@ form textarea {
     form h5 {
         font-size: 22px;
     }
+    .footer_nav ul li {
+        font-size: 19px;
+    }
 }
 
 /* Mobile */
@@ -168,5 +171,8 @@ form textarea {
     }
     form {
         width: 280px;
+    }
+    .footer_nav ul li {
+        font-size: 13px;
     }
 }
