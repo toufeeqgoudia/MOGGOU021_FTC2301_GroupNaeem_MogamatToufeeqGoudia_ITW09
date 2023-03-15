@@ -17,7 +17,8 @@ body {
     min-height: 100vh;
     max-height: 100%;
     background: #455a64;
-    position: relative;
+    position: sticky;
+    top: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -72,20 +73,67 @@ main {
     background: whitesmoke;
 }
 img {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid #546e7a;
 }
 h1 {
     font-size: 50px;
     font-weight: bold;
+    color: black;
 }
 h2 {
     font-size: 40px;
+    color: #546e7a;
 }
 p {
-    font-size: 18px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Tablet */
+@media screen and (max-width: 850px) {
+    img {
+        width: 220px;
+        height: 220px;
+    }
+    h1 {
+        font-size: 35px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    h2 {
+        font-size: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+    .header_nav p a {
+        font-size: 90%;
+    }
+    img {
+        width: 190px;
+        height: 190px;
+    }
+    h1 {
+        font-size: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    p {
+        font-size: 13px;
+    }
 }

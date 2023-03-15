@@ -14,10 +14,10 @@ body {
 }
 .header_nav {
     width: 100%;
-    min-height: 100vh;
-    max-height: 100%;
+    height: 100vh;
     background: #455a64;
-    position: relative;
+    position: sticky;
+    top: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -68,6 +68,7 @@ h3 {
     font-size: 50px;
     color: #546e7a;
     text-align: center;
+    text-decoration: underline;
 }
 .contact_container {
     display: flex;
@@ -124,4 +125,48 @@ form textarea {
 }
 .fa-github, .fa-linkedin, .fa-envelope, .fa-location-dot, .fa-phone {
     color: #546e7a;
+}
+
+/* Tablet */
+@media screen and (max-width: 850px) {
+    h3 {
+        font-size: 40px;
+    }
+    .contact_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 140px;
+    }
+    ul li {
+        font-size: 13px;
+    }
+    form {
+        width: 280px;
+        height: 350px;
+    }
+    form h5 {
+        font-size: 22px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 550px) {
+    .header_nav p a {
+        font-size: 70%;
+    }
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    ul {
+        padding-bottom: 30px;
+    }
+    form {
+        width: 280px;
+    }
 }
