@@ -91,6 +91,17 @@ p {
     margin-left: 40px;
     margin-right: 40px;
 }
+.social_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fa-github, .fa-linkedin {
+    color: #546e7a;
+    font-size: 40px;
+    text-decoration: none;
+}
 
 
 /* Tablet */
@@ -114,6 +125,9 @@ p {
     }
     .footer_nav ul li {
         font-size: 19px;
+    }
+    .fa-github, .fa-linkedin {
+        font-size: 30px;
     }
 }
 
@@ -154,5 +168,8 @@ p {
     }
     .footer_nav ul li {
         font-size: 13px;
+    }
+    .fa-github, .fa-linkedin {
+        font-size: 20px;
     }
 }
