@@ -90,7 +90,7 @@ ul li {
 }
 form {
     width: 300px;
-    height: 350px;
+    height: 390px;
     border: 3px solid #546e7a;
     border-radius: 20px;
 }
@@ -102,20 +102,29 @@ form h5 {
 form input {
     width: 80%;
     margin: 5px;
+    padding: 5px;
+    border: 2px solid #546e7a;
+    border-radius: 4px;
 }
 form select {
     width: 65%;
     margin: 5px;
+    padding: 5px;
+    border: 2px solid #546e7a;
+    border-radius: 4px;
 }
 form textarea {
     width: 96%;
     height: 50%;
     margin: 5px;
+    padding: 5px;
+    border: 2px solid #546e7a;
+    border-radius: 4px;
 }
 .button {
     width: 80px;
     border-radius: 10px;
-    color: black;
+    color: white;
     background: #546e7a;
 }
 .button:hover {
@@ -143,7 +152,6 @@ form textarea {
     }
     form {
         width: 280px;
-        height: 350px;
     }
     form h5 {
         font-size: 22px;
