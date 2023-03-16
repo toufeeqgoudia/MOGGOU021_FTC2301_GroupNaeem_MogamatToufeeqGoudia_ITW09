@@ -9,7 +9,7 @@ This is my final ITW Capstone Project. In this project I demonstrate my HTML and
  * CSS
 
 ## Figma
- (https://www.figma.com/file/d7HCo6KyZvWnOepgwl1OL5/MOGGOU021_FTC2301_Naeem_MogamatToufeeqGoudia_ITW9_FinalDigitalResume?node-id=0%3A1&t=yznzdOenlexYP4Fl-0)
+ (https://www.figma.com/file/d7HCo6KyZvWnOepgwl1OL5/MOGGOU021_FTC2301_Naeem_MogamatToufeeqGoudia_ITW09?t=mcOTBE5ZE1xsJimL-0)
 
 ## Links
  * (https://fontawesome.com/ "Font Awesome")
