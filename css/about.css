@@ -76,6 +76,7 @@ img {
     height: 250px;
     border-radius: 50%;
     border: 5px solid #546e7a;
+    object-fit: cover;
 }
 h1 {
     font-size: 50px;
